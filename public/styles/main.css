@@ -1,0 +1,56 @@
+html, body{
+    background-color: #483D8B;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+}
+
+.container .title{
+    margin-top: 10%;
+}
+
+.container .table a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+}
+
+.container .menu{
+    width: 80% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .table{
+    width: 80%;
+    margin-bottom: 7%;
+}
+
+.container .form{
+    width: 80%;
+    margin-bottom: 7%;
+}
+
+.container .form .input{
+    width: 47%;
+}
+
+.container .form .btn{
+    margin-top: 1%;
+    width: 100%;
+}
+
+.container .alert{
+    width: 80%;
+}
