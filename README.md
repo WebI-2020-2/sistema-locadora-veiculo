@@ -45,6 +45,13 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
     </table>
 </div>
 
+# Screen Shots
+<div align="center">
+    <p><img src="https://github.com/luanasthefanynevesdasilva/foto/blob/main/01.PNG" width="70%"/></p><br>
+    <p><img src="https://github.com/luanasthefanynevesdasilva/foto/blob/main/02.PNG" width="70%"/></p><br>
+    <p><img src="https://github.com/luanasthefanynevesdasilva/foto/blob/main/03.PNG" width="70%"/></p><br>
+</div>
+
 # Acesso ao Sistema
 
 Ter instalado em sua máquina o PHP 8.0.0 ou versão superior: 
