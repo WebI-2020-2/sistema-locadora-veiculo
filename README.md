@@ -47,7 +47,7 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
 
 # Acesso ao Sistema
 
-Ter instalado em sua máquina o PHP 8.0.0 ou versão superior: Download PHP.
+Ter instalado em sua máquina o PHP 8.0.0 ou versão superior: 
 
 Executar o servidor local do PHP:
 php -S localhost:8000
@@ -71,13 +71,13 @@ Clonar este repositório em sua máquina
             <td align="center">
                 <a target="_blank" href="https://github.com/HalissonWesker">
                     <img src="https://avatars.githubusercontent.com/u/83023695?v=4">
-                    <h5>Front-end e DBA e Designer</h5>
+                    <h5>Back-end, Front-end,Designer,Tester </h5>
                 </a>
             </td>
             <td align="center">
                 <a target="_blank" href="https://github.com/settings/profile">
                     <img src="https://avatars.githubusercontent.com/u/16031976?v=4">
-                    <h5>Tester e Back-end e Designer</h5>
+                    <h5>DBA, Front-end, Tester </h5>
                 </a>
             </td>  
         </tr>
