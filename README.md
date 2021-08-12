@@ -19,7 +19,7 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
             <th>Atributos</th><th>Cadastrar</th><th>Listar</th><th>Editar</th><th>Excluir</th>
         </tr>
         <tr aling="center">
-            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>❌</td><td>❌</td>
+            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>✔️</td><td>❌</td>
         </tr>
         <tr aling="center">
             <td>Veiculo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
@@ -28,7 +28,7 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
             <td>Cliente</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
         </tr>
         <tr aling="center">
-            <td>Devolução</td><td>✔️</td><td>✔️</td><td>❌</td><td>✔️</td>
+            <td>Devolução</td><td>✔️</td><td>✔️</td><td>❌</td><td>❌</td>
         </tr>
         <tr aling="center">
             <td>Funcionario</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
