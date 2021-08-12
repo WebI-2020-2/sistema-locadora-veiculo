@@ -76,7 +76,7 @@ Clonar este repositório em sua máquina
             </td>
             <td align="center">
                 <a target="_blank" href="https://github.com/settings/profile">
-                    <img src="https://avatars.githubusercontent.com/u/16031976?v=4">
+                    <img src="https://github.com/luanasthefanynevesdasilva/foto/blob/main/Capturar.PNG">
                     <h5>DBA, Front-end, Tester </h5>
                 </a>
             </td>  
