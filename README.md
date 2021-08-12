@@ -36,10 +36,34 @@ Ter instalado em sua máquina o PHP 8.0.0 ou versão superior: Download PHP.
 Executar o servidor local do PHP:
 php -S localhost:8000
 
-Clonar este repositório em sua máquina:
+Clonar este repositório em sua máquina
 
-# Equipe
+## Equipe
 
-@Halisson Araújo
-
-@Luana Sthefany
+<div align="center">
+    <h3><i>Equipe responsável pelo desenvolvimento</i></h3>
+    <table aling="center">
+        <tr>
+            <td align="center">
+                <a target="_blank" href="https://github.com/HalissonWesker">Halisson Araujo </a>
+            </td>
+            <td align="center">
+                <a target="_blank" href="https://github.com/luanasthefanynevesdasilva">Luana Sthefany</a>
+            </td>
+        </tr>
+        <tr>
+            <td align="center">
+                <a target="_blank" href="https://github.com/HalissonWesker">
+                    <img src="https://github.com/HalissonWesker">
+                    <h5>Front-end e DBA e Designer</h5>
+                </a>
+            </td>
+            <td align="center">
+                <a target="_blank" href="https://github.com/luanasthefanynevesdasilva">
+                    <img src="https://github.com/luanasthefanynevesdasilva">
+                    <h5>Tester e Back-end e Designer</h5>
+                </a>
+            </td>  
+        </tr>
+    </table>
+</div>
