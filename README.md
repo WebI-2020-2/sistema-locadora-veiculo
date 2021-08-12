@@ -12,22 +12,39 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
 ![](https://camo.githubusercontent.com/b13ed67c809178963ce9d538175b02649800772be1ce0cb02da5879e5614e236/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702d3536334437433f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465)
 
 # Lista de funcionalidades disponíveis
+<div align="center">
+    <h3><i>Lista de funcionalidades disponiveis</i></h3>
+    <table aling="center">
+        <tr aling="center">
+            <th>Atributos</th><th>Cadastrar</th><th>Listar</th><th>Editar</th><th>Excluir</th>
+        </tr>
+        <tr aling="center">
+            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Seguro</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Modelo de Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Devolução</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Funcionários</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Clientes</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Tipo de Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+    </table>
+</div>
 
-Cadastro, consulta, edição e remoção de Seguro
-
-Cadastro, consulta, edição e remoção de Modelo de Veículo![](https://github.com/WebI-2020-2/sistema-locadora-veiculo/blob/main/ok.html)
-
- Cadastro, consulta, edição e remoção de Aluguel
-
- Cadastro, consulta, edição e remoção de Devolução 
-
-Cadastro, consulta, edição e remoção de Funcionários
-
- Cadastro, consulta, edição e remoção de Clientes
-
-Cadastro, consulta, edição e remoção de Veículo
-
-Cadastro, consulta, edição e remoção de Tipo de Veículo
 
 # Acesso ao Sistema
 
@@ -39,7 +56,6 @@ php -S localhost:8000
 Clonar este repositório em sua máquina
 
 ## Equipe
-
 
 <div align="center">
     <h3><i>Equipe responsável pelo desenvolvimento</i></h3>
@@ -60,8 +76,8 @@ Clonar este repositório em sua máquina
                 </a>
             </td>
             <td align="center">
-                <a target="_blank" href="https://github.com/luanasthefanynevesdasilva">
-                    <img src="https://github.com/luanasthefanynevesdasilva">
+                <a target="_blank" href="https://github.com/settings/profile">
+                    <img src="">
                     <h5>Tester e Back-end e Designer</h5>
                 </a>
             </td>  
