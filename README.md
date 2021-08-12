@@ -17,3 +17,13 @@ Cadastro, consulta, edição e remoção de Veículo
 
 Cadastro, consulta, edição e remoção de Tipo de Veículo
 
+# Acesso ao Sistema
+
+Ter instalado em sua máquina o PHP 8.0.0 ou versão superior: Download PHP.
+
+Executar o servidor local do PHP:
+php -S localhost:8000
+
+Clonar este repositório em sua máquina:
+
+# Equipe
