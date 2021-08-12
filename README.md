@@ -19,32 +19,31 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
             <th>Atributos</th><th>Cadastrar</th><th>Listar</th><th>Editar</th><th>Excluir</th>
         </tr>
         <tr aling="center">
-            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>❌</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Veiculo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Cliente</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Devolução</td><td>✔️</td><td>✔️</td><td>❌</td><td>❌</td>
+        </tr>
+        <tr aling="center">
+            <td>Funcionario</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+        </tr>
+        <tr aling="center">
+            <td>Modelo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
         </tr>
         <tr aling="center">
             <td>Seguro</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
         </tr>
         <tr aling="center">
-            <td>Modelo de Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
-        </tr>
-        <tr aling="center">
-            <td>Devolução</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
-        </tr>
-        <tr aling="center">
-            <td>Funcionários</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
-        </tr>
-        <tr aling="center">
-            <td>Clientes</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
-        </tr>
-        <tr aling="center">
-            <td>Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
-        </tr>
-        <tr aling="center">
-            <td>Tipo de Veículo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
+            <td>TIpo Veiculo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
         </tr>
     </table>
 </div>
-
 
 # Acesso ao Sistema
 
@@ -77,7 +76,7 @@ Clonar este repositório em sua máquina
             </td>
             <td align="center">
                 <a target="_blank" href="https://github.com/settings/profile">
-                    <img src="">
+                    <img src="https://avatars.githubusercontent.com/u/16031976?v=4">
                     <h5>Tester e Back-end e Designer</h5>
                 </a>
             </td>  
