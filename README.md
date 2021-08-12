@@ -12,6 +12,7 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
 ![](https://camo.githubusercontent.com/b13ed67c809178963ce9d538175b02649800772be1ce0cb02da5879e5614e236/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f426f6f7473747261702d3536334437433f7374796c653d666f722d7468652d6261646765266c6f676f3d626f6f747374726170266c6f676f436f6c6f723d7768697465)
 
 # Lista de funcionalidades disponíveis
+# Lista de funcionalidades disponíveis
 <div align="center">
     <h3><i>Lista de funcionalidades disponiveis</i></h3>
     <table aling="center">
@@ -19,7 +20,7 @@ Locadora de Veículo é um sistema WEB de concessionária de automóveis desenvo
             <th>Atributos</th><th>Cadastrar</th><th>Listar</th><th>Editar</th><th>Excluir</th>
         </tr>
         <tr aling="center">
-            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>✔️</td><td>❌</td>
+            <td>Aluguel</td><td>✔️</td><td>✔️</td><td>❌</td><td>❌</td>
         </tr>
         <tr aling="center">
             <td>Veiculo</td><td>✔️</td><td>✔️</td><td>✔️</td><td>✔️</td>
