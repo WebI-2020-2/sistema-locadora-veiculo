@@ -40,6 +40,7 @@ Clonar este repositório em sua máquina
 
 ## Equipe
 
+
 <div align="center">
     <h3><i>Equipe responsável pelo desenvolvimento</i></h3>
     <table aling="center">
@@ -54,7 +55,7 @@ Clonar este repositório em sua máquina
         <tr>
             <td align="center">
                 <a target="_blank" href="https://github.com/HalissonWesker">
-                    <img src="https://github.com/HalissonWesker">
+                    <img src="https://avatars.githubusercontent.com/u/83023695?v=4">
                     <h5>Front-end e DBA e Designer</h5>
                 </a>
             </td>
