@@ -1,4 +1,4 @@
-w<?php
+<?php
 
 require_once '../model/veiculo.php';
 require_once '../model/Database.php';
