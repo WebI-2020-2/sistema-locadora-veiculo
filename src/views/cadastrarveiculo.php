@@ -25,7 +25,7 @@ $tipoveiculos = new tipoveiculoController();
 <body class="bg-secondary">
     <div class="container">
         <h1 class="display-1 text-center text-light">Veiculo</h1>
-        <<nav class="nav nav-pills nav-justified ">
+        <nav class="nav nav-pills nav-justified ">
             <a href="./veiculo.php" class="nav-item nav-link active bg-danger" >Voltar </a>
         </nav>
 
