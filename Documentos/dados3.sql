@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 16-Ago-2021 às 04:19
+-- Generation Time: 16-Ago-2021 às 14:01
 -- Versão do servidor: 10.1.38-MariaDB
 -- versão do PHP: 7.3.2
 
@@ -43,7 +43,10 @@ CREATE TABLE `aluguel` (
 
 INSERT INTO `aluguel` (`idaluguel`, `idcliente`, `diaria`, `datalocacao`, `combustivelatual`, `ativo`) VALUES
 (6, 3, '200', '2021-08-15', '1000', 0),
-(7, 3, '500', '2021-08-17', '1000', 0);
+(7, 3, '500', '2021-08-17', '1000', 0),
+(8, 3, '200', '2021-08-16', '300', 0),
+(9, 3, '200', '2021-08-30', '200', 0),
+(10, 3, '200', '2021-08-16', '1000', 0);
 
 -- --------------------------------------------------------
 
@@ -88,7 +91,10 @@ CREATE TABLE `devolucao` (
 
 INSERT INTO `devolucao` (`iddevolucao`, `total`, `idaluguel`, `combustiveldevolucao`, `extra`, `datadevolucao`, `pagamento`) VALUES
 (18, '200', 6, '1000', '0', '2021-08-16', 'cartao'),
-(19, '500', 7, '1000', '0', '2021-08-18', 'dinheiro');
+(19, '500', 7, '1000', '0', '2021-08-18', 'dinheiro'),
+(20, '1000', 8, '200', '0', '2021-08-16', 'cartao'),
+(21, '200', 9, '200', '0', '2021-08-31', 'cartao'),
+(22, '200', 10, '1000', '0', '2021-08-17', 'cartao');
 
 -- --------------------------------------------------------
 
@@ -127,7 +133,10 @@ CREATE TABLE `itemaluguel` (
 
 INSERT INTO `itemaluguel` (`iditemaluguel`, `idaluguel`, `idveiculo`) VALUES
 (9, 6, 8),
-(10, 7, 9);
+(10, 7, 9),
+(11, 8, 8),
+(12, 9, 8),
+(13, 10, 8);
 
 -- --------------------------------------------------------
 
@@ -284,37 +293,37 @@ ALTER TABLE `veiculo`
 -- AUTO_INCREMENT for table `aluguel`
 --
 ALTER TABLE `aluguel`
-  MODIFY `idaluguel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `idaluguel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `idcliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `idcliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `devolucao`
 --
 ALTER TABLE `devolucao`
-  MODIFY `iddevolucao` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `iddevolucao` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `funcionario`
 --
 ALTER TABLE `funcionario`
-  MODIFY `idfuncionario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idfuncionario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `itemaluguel`
 --
 ALTER TABLE `itemaluguel`
-  MODIFY `iditemaluguel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `iditemaluguel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `modelo`
 --
 ALTER TABLE `modelo`
-  MODIFY `idmodelo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idmodelo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `seguro`
@@ -326,7 +335,7 @@ ALTER TABLE `seguro`
 -- AUTO_INCREMENT for table `tipoveiculo`
 --
 ALTER TABLE `tipoveiculo`
-  MODIFY `idtipoveiculo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `idtipoveiculo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `veiculo`
