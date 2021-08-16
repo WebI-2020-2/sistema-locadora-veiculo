@@ -56,7 +56,7 @@
                             <td>
                                 <div class="btn-group btn-group-sm">
                                     <a href="./editar-venda.php?id=<?= $aluguel->getidaluguel() ?>" class="btn btn-success">editar</a>
-                                <a href="./apagar-venda.php?id=<?= $aluguel->getidaluguel() ?>" onclick="return confirm('Tem certeza de que deseja excluir este item?');"class="btn btn-outline-danger">apagar</a>
+                                
                                 </div>
                             </td>
                         </tr> <?php
